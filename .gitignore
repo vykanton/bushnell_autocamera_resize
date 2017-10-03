@@ -1,0 +1,6 @@
+*.pyc
+venv/
+env/
+venv3/
+censorsettingsResize.json
+output_images/
