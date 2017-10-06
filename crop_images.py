@@ -49,7 +49,7 @@ imagecensoring.resize_json(ratio)
 class MyImage(Base):
     __tablename__ = "images"
 
-    id = Column(Integer, Sequence('iamge_id_seq'), primary_key=True)
+    id = Column(Integer, Sequence('image_id_seq'), primary_key=True)
     path = Column(String)
     name = Column(String)
     resized = Column(Boolean)
